@@ -23,7 +23,7 @@ theme: butterfly
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://yiwangmeng.cn # 网址, 必须以 http[s]:// 开头
+url: https://sandra-feng.github.io # 网址, 必须以 http[s]:// 开头
 permalink: :title.html #链接发布格式
 permalink_defaults:
 pretty_urls:
