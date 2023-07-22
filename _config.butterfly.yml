@@ -652,7 +652,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://yiwangmeng.com
+      link: https://github.com/Sandra-feng
   card_announcement:
     enable: true
     content: '这是个静态网站演示'
