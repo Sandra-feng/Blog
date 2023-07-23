@@ -1,3 +1,13 @@
+title: HAN模型Hierarchy Attention Network
+categories:
+  - 自然语言处理
+tags:
+  - 学习记录
+toc: true
+date: 2023-07-23 14:04:21
+updated: 2023-07-23 14:04:21
+comments: true
+
 ## HAN(Hierarchy Attention Network)模型
 
 文本由时序性的sentence组成，而sentence则是由时序性的word组成。我们要想根据文章的语义对一篇文章进行分类，模型分两步来进行，首先从单词层面分析每个句子的语义。总结出每个句子的语义后，再将句子综合起来表征整篇文章的语义，并对其进行分类。
