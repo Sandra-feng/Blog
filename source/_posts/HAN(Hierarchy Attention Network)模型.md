@@ -1,4 +1,5 @@
-title: HAN模型Hierarchy Attention Network
+---
+title: HAN(Hierarchy Attention Network)模型及实现
 categories:
   - 自然语言处理
 tags:
@@ -7,6 +8,7 @@ toc: true
 date: 2023-07-23 14:04:21
 updated: 2023-07-23 14:04:21
 comments: true
+---
 
 ## HAN(Hierarchy Attention Network)模型
 
