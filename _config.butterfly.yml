@@ -559,14 +559,14 @@ activate_power_mode:
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999 # -1 or 9999
-  mobile: false
+  mobile: true
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: true
-  mobile: true
+  enable: false
+  mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 ClickShowText:
@@ -627,8 +627,8 @@ subtitle:
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
     - How are you?
-    - I am fine. Thx, and you?
-    - I am fine too.
+    - I am fine. 
+    - 人生到处知何似，应似飞鸿踏雪泥。
     - What's a nice day!
     - 春有百花秋有月，夏有凉风冬有雪。
     - 若无闲事挂心头，便是人间好时节。
