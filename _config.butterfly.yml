@@ -124,16 +124,17 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-2.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-1.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-3.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-6.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-5.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-4.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-7.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-9.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-8.png
-    - https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-10.png
+    - https://picdl.sunbangyan.cn/2023/08/31/fijnc2.jpg
+    - https://picst.sunbangyan.cn/2023/08/31/fijsmq.jpg
+    - https://picdm.sunbangyan.cn/2023/08/31/fjaqfl.jpg
+    - https://picst.sunbangyan.cn/2023/08/31/fjawga.jpg
+    - https://picss.sunbangyan.cn/2023/08/31/fjazzb.jpg
+    - https://picdm.sunbangyan.cn/2023/08/31/fjavr4.jpg
+    - https://picdl.sunbangyan.cn/2023/08/31/fmo2dy.jpg
+    - https://picst.sunbangyan.cn/2023/08/31/fmo1yq.jpg
+    - https://picdl.sunbangyan.cn/2023/08/31/fmnzlh.jpg
+    - https://picst.sunbangyan.cn/2023/08/31/fmo90y.jpg
+    - https://picst.sunbangyan.cn/2023/08/31/fmo5nx.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
