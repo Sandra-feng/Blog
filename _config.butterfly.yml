@@ -511,6 +511,7 @@ tag_ui: # 留空或 index
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 background:
+  - https://picdm.sunbangyan.cn/2023/08/31/h69vbv.jpg
 
 # Footer Background
 footer_bg: false
