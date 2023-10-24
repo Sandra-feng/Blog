@@ -1,3 +1,14 @@
+---
+title: 安装pytorch环境(GPU版本)
+categories:
+  - 学编程
+tags:
+  - 混技能
+toc: true
+date: 2023-10-20 14:04:21
+updated: 2023-10-20 14:04:21
+comments: true
+---
 # 安装pytorch环境(GPU版本)
 
 离线安装比较简单
@@ -8,7 +19,7 @@
 
 win+r打开运行，输入cmd打开命令行，输入nvidia-smi，查看cuda版本。
 
-![image-20230927192716678](C:\Users\Hasee\AppData\Roaming\Typora\typora-user-images\image-20230927192716678.png)
+[![piECF9x.png](https://z1.ax1x.com/2023/10/24/piECF9x.png)](https://imgse.com/i/piECF9x)
 
 说明我可以下载cuda12.0以下版本，cuda向下兼容。
 
@@ -36,13 +47,13 @@ CUDA版本与PyTorch版本之间的兼容性通常不是一一对应的，而是
 
 或者在这里：[以前的 PyTorch 版本 |PyTorch](https://pytorch.org/get-started/previous-versions/)
 
-![image-20230927210637659](C:\Users\Hasee\AppData\Roaming\Typora\typora-user-images\image-20230927210637659.png)
+[![piEC3gf.png](https://z1.ax1x.com/2023/10/24/piEC3gf.png)](https://imgse.com/i/piEC3gf)
 
 这里出来的最新的版本对应关系是cuda11.8的，我们12.0的也完全够用。
 
 由上图，我们来下载torch=2.0的，torchvision=0.15.0，torchaudio==2.0.0，我选择了python=3.9的，因为怕3.10以上的出问题。
 
-![image-20230927210946774](C:\Users\Hasee\AppData\Roaming\Typora\typora-user-images\image-20230927210946774.png)
+[![piEClCt.png](https://z1.ax1x.com/2023/10/24/piEClCt.png)](https://imgse.com/i/piEClCt)
 
 cu113表示cuda版本是11.3
 cp37 表示python版本3.7
@@ -58,7 +69,7 @@ win-amd64 表示windows64位
 
 `torch2python39`是自己命名的环境。
 
-![image-20230927212647005](C:\Users\Hasee\AppData\Roaming\Typora\typora-user-images\image-20230927212647005.png)
+[![piECZuD.png](https://z1.ax1x.com/2023/10/24/piECZuD.png)](https://imgse.com/i/piECZuD)
 
 ```python
 conda activate torch2python39
@@ -70,4 +81,4 @@ pip install torchaudio-2.0.0+cu118-cp39-cp39-win_amd64.whl
 
 最后激活python环境，输入`import torch`，`print(torch.cuda.is_available())`得到True说明torch环境安装成功。
 
-![image-20230927214211715](C:\Users\Hasee\AppData\Roaming\Typora\typora-user-images\image-20230927214211715.png)
+[![piECM4I.png](https://z1.ax1x.com/2023/10/24/piECM4I.png)](https://imgse.com/i/piECM4I)
