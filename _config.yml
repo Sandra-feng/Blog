@@ -17,8 +17,8 @@ language: zh-CN  #theme: maupassant，landscape，Annie
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-# theme: maupassant
-theme: butterfly
+theme: maupassant
+# theme: butterfly
 # theme: matery
 
 # URL
