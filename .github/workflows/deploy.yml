@@ -25,16 +25,25 @@ jobs:
 
       - name: Get baseURL and set CNAME env
         run: |
-          baseURL=$(awk -F': ' '/^url: /{print $2}' _config.yml | sed "s|[\"'"]||g" | awk -F '//' '{print $2}' | sed "s|/||")
-          if [[ -n "$baseURL" ]]; then
-            echo "CNAME=$baseURL" >> $GITHUB_ENV
+          set -eo pipefail
+          # 从 _config.yml 读取 url:，去掉引号/协议/末尾斜杠，得到裸域名
+          baseURL=$(grep -E '^[[:space:]]*url:' _config.yml \
+            | head -1 \
+            | cut -d':' -f2- \
+            | xargs \
+            | tr -d '"' \
+            | tr -d "'" \
+            | sed -E 's~^https?://~~; s~/*$~~')
+          echo "Detected baseURL: $baseURL"
+          if [ -n "$baseURL" ]; then
+            echo "CNAME=$baseURL" >> "$GITHUB_ENV"
           fi
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # 你仓库没有锁文件的话先不要开缓存
+          # 以后仓库里有 package-lock.json 再打开缓存：
           # cache: 'npm'
 
       - name: Install & Build (Hexo)
@@ -43,6 +52,7 @@ jobs:
           npm install
           hexo clean
           hexo generate
+          # 有自定义域名时把 CNAME 写进构建产物
           if [[ -n "${CNAME}" && "${CNAME}" != *"github.io"* ]]; then
             echo "${CNAME}" > public/CNAME
           fi
