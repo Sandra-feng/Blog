@@ -87,10 +87,10 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /imgs/小猫.jpg
+index_img: /imgs/cat.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: /imgs/小猫.jpg
+default_top_img: /imgs/cat.jpg
 
 # The banner image of archive page
 archive_img:
@@ -124,16 +124,16 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-    - /imgs/微信图片_20250812171503_8.jpg
-    - /imgs/微信图片_20250812171500_9.jpg
-    - /imgs/微信图片_20250812171456_10.jpg
-    - /imgs/微信图片_20250812171453_11.jpg
-    - /imgs/微信图片_20250812171449_12.jpg
-    - /imgs/微信图片_20250812171446_13.jpg
-    - /imgs/微信图片_20250812171443_14.jpg
-    - /imgs/微信图片_20250812171438_15.jpg
-    - /imgs/微信图片_20250812171435_16.jpg
-    - /imgs/微信图片_20250812171428_17.jpg
+    - /imgs/20250812171503_8.jpg
+    - /imgs/20250812171500_9.jpg
+    - /imgs/20250812171456_10.jpg
+    - /imgs/20250812171453_11.jpg
+    - /imgs/20250812171449_12.jpg
+    - /imgs/20250812171446_13.jpg
+    - /imgs/20250812171443_14.jpg
+    - /imgs/20250812171438_15.jpg
+    - /imgs/20250812171435_16.jpg
+    - /imgs/20250812171428_17.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
